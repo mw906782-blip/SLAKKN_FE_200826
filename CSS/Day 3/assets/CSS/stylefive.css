@@ -1,0 +1,18 @@
+.parent{
+    background-color: rgb(49, 142, 158);
+}
+
+.card{
+    background-color: beige;
+    color: black;
+    margin: auto;
+    width: 200px;
+    padding: 10px;
+    height: 340px;
+
+}
+.card > img{
+
+    width: 200px;
+}
+

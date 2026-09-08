@@ -1,0 +1,9 @@
+.student-box{
+    background-color: rgb(37, 150, 56);
+    color: white;
+    margin: auto;
+    width: 220px;
+    padding: 50px;
+    border: 2px solid black;
+
+}

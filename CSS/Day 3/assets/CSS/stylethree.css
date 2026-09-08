@@ -1,0 +1,29 @@
+.box{
+    background-color: plum;
+}
+.cardone{
+    background-color: blanchedalmond;
+    width: 170px;
+    padding:40px;
+    border: 1px solid black;
+    margin: auto;
+
+}
+
+.cardtwo{
+    background-color: blanchedalmond;
+    width: 170px;
+    padding: 40px;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.cardthree{
+    background-color: blanchedalmond;
+    width: 170px;
+    padding: 40px;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 15px;
+}
