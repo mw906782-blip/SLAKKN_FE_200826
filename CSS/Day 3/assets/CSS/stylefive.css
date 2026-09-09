@@ -1,18 +1,21 @@
 .parent{
-    background-color: rgb(49, 142, 158);
+   background-color: rgb(205, 231, 253);
+    
 }
 
 .card{
-    background-color: beige;
+    background-color: white;
     color: black;
     margin: auto;
     width: 200px;
     padding: 10px;
-    height: 340px;
-
+    height: 335px;
+    border-radius: 10px;
+   box-shadow: 0px 0px 4px 5px #979494;
 }
 .card > img{
 
     width: 200px;
+    border-radius: 10px;
 }
 
