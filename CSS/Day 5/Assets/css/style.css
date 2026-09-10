@@ -5,9 +5,10 @@
 }
 .parent{
     display: flex;
+    flex-direction: row;
     gap: 10px;
     background-color: rgb(84, 132, 187);
-    width: 1200px;
+    width: 1150px;
     height: 600px;
     
 }
@@ -16,107 +17,23 @@
     background-color: rgb(223, 220, 220);
     color: black;
     padding: 10px;
-   width: 221px;
-   height: 310px;
+   width: 180px;
+   height: 280px;
    border-radius: 10px;
 
 }
 
 .boxone > img {
     border-radius: 10px;
-    width: 200px;
-}
-
-
-
-.boxtwo{
-    background-color: rgb(223, 220, 220);
-    color: black;
-    padding: 10px;
-   width: 221px;
-   height:  310px;
-   border-radius: 10px;
- 
-}
-
-.boxtwo > img {
-    border-radius: 10px;
-    width: 200px;
-}
-
-
-
-.boxtwo{
-    background-color: rgb(223, 220, 220);
-    color: black;
-    padding: 10px;
-   width: 221px;
-   height: 310px;
-   border-radius: 10px;
-    
-}
-
-.boxtwo > img {
-    border-radius: 10px;
-    width: 200px;
-}
-
-
-.boxthree{
-    background-color: rgb(223, 220, 220);
-    color: black;
-    padding: 10px;
-   width: 221px;
-   height: 310px;
-   border-radius: 10px;
-    
-}
-
-.boxthree > img {
-    border-radius: 10px;
-    width: 200px;
-}
-
-
-
-.boxfour{
-    background-color: rgb(223, 220, 220);
-    color: black;
-    padding: 10px;
-   width: 221px;
-   height: 310px;
-   border-radius: 10px;
-    
-}
-
-.boxfour > img {
-    border-radius: 10px;
-    width: 200px;
-}
-
-
-
-.boxfive{
-    background-color: rgb(223, 220, 220);
-    color: black;
-    padding: 10px;
-   width: 221px;
-   height: 310px;
-   border-radius: 10px;
-    
-    
-}
-
-.boxfive > img {
-    border-radius: 10px;
-    width: 200px;
+    width: 160px;
 }
 
 .button{
     background-color: gold;
-   width: 50px;
-   border: none;
-  margin-left: 80px;
+    width: 50px;
+    border: none;
+    border-radius: 8px;
+    margin-left: 55px;
 }
 
 

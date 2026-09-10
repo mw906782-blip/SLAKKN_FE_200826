@@ -1,0 +1,43 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.parent{
+    background-color: rgb(103, 103, 187);
+    height: 750px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    
+    
+}
+
+.box > img{
+    width: 200px;
+    border-radius: 15px; 
+
+}
+
+.box{
+    background-color: rgb(214, 214, 212);
+    padding: 20px;
+    width: 240px;
+    height: 340px;
+    border-radius: 15px;
+
+}
+
+.btn{
+    width: 80px;
+    background-color: darkorange;
+    padding: 6px;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    border: none;
+}
