@@ -6,5 +6,66 @@
 
 .parent{
     background-color: rgb(98, 98, 187);
-    padding: 100px;
+    padding: 10px;
+    height: 100vh;
+    position: relative;
+}
+
+.box{
+    background-color: rgb(230, 227, 227);
+    padding: 20px;
+    width: 240px;
+    height: 330px;
+    border-radius: 10px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 1;
+}
+.box > img{
+    width: 200px;
+    border-radius: 10px;
+}
+
+.btn{
+    background-color: rgb(22, 207, 22);
+    padding: 5px;
+    width: 70px;
+    border: none;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+}
+
+.boxone{
+    background-color: rgb(230, 227, 227);
+    padding: 20px;
+    width: 240px;
+    height: 330px;
+    border-radius: 10px;
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    z-index: 3;
+}
+.boxone > img{
+    width: 200px;
+    border-radius: 10px;
+}
+
+
+.boxtwo{
+    background-color: rgb(230, 227, 227);
+    padding: 20px;
+    width: 240px;
+    height: 330px;
+    border-radius: 10px;
+    position: absolute;
+    top: 270px;
+    left: 270px;
+    z-index: 2;
+}
+.boxtwo > img{
+    width: 200px;
+    border-radius: 10px;
 }
