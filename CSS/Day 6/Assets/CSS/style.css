@@ -6,7 +6,7 @@
 
 .parent{
     background-color: peru;
-    height: 1000px;
+    height: 1100px;
     position: relative;
 
 }
@@ -17,12 +17,75 @@
     width: 210px;
     border-radius: 10px;
     position:absolute;
-    bottom: 720px;
-    left: 800px;
+    top: 10px;
+    right: 10px;
 }
 
 .box > img{
     width: 170px;
     border-radius: 10px;
     
+}
+.btn{
+    background-color: darkorange;
+    border: none;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    width: 50px;
+    padding: 6px;
+}
+
+.boxone{
+    background-color: lightgray;
+    padding: 20px;
+    width: 210px;
+    border-radius: 10px;
+    position:absolute;
+    top: 400px;
+    left: 550px;
+    
+    
+}
+
+.boxone > img{
+    width: 170px;
+    border-radius: 10px;
+    
+}
+.btnone{
+    background-color: darkorange;
+    border: none;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    width: 50px;
+    padding: 6px;
+}
+
+.boxtwo{
+    background-color: lightgray;
+    padding: 20px;
+    width: 210px;
+    border-radius: 10px;
+    position:absolute;
+    bottom: 10px;
+    left: 10px;
+    
+    
+}
+
+.boxtwo > img{
+    width: 170px;
+    border-radius: 10px;
+    
+}
+.btntwo{
+    background-color: darkorange;
+    border: none;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    width: 50px;
+    padding: 6px;
 }
