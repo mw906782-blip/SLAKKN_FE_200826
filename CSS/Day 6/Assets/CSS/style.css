@@ -1,0 +1,28 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.parent{
+    background-color: peru;
+    height: 1000px;
+    position: relative;
+
+}
+
+.box{
+    background-color: lightgray;
+    padding: 20px;
+    width: 210px;
+    border-radius: 10px;
+    position:absolute;
+    bottom: 720px;
+    left: 800px;
+}
+
+.box > img{
+    width: 170px;
+    border-radius: 10px;
+    
+}
