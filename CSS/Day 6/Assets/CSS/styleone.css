@@ -1,0 +1,10 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.parent{
+    background-color: rgb(98, 98, 187);
+    padding: 100px;
+}
