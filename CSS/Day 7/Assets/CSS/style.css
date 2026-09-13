@@ -1,0 +1,61 @@
+*{
+    padding: 0px;
+     margin: 0px;
+    box-sizing: border-box;
+}
+
+.parent{
+    background-color: rgba(130, 175, 175, 0.87);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    
+}
+
+.btn{
+    background-color: rgb(11, 145, 11);
+    color: white;
+    padding:4px;
+    border: none;
+    border-radius: 10px;
+    width: 70px;
+}
+
+.btn:hover{
+    background-color: rgb(21, 235, 21);
+    color: black;
+    border: solid black 1px;
+}
+
+.btnone{
+    background-color: rgba(255, 68, 0, 0.897);
+    color: white;
+    padding:4px;
+    border: none;
+    border-radius: 10px;
+    width: 70px;
+}
+
+.btnone:hover{
+    background-color: darkorange;
+    color: black;
+    border: solid black 1px;
+}
+
+.btntwo{
+    background-color: rgb(161, 1, 1);
+    color: white;
+    padding:4px;
+    border: none;
+    border-radius: 10px;
+    width: 70px;
+}
+
+.btntwo:hover{
+    background-color: rgb(255, 0, 0);
+    color: black;
+    border: solid black 1px;
+}
