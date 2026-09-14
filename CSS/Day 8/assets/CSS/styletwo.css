@@ -1,0 +1,137 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F5F5F0;
+}
+
+.head{
+    background-color:#16302B;
+    color: #FFFFFF;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    border-radius: 10px;
+}
+
+
+.head > img{
+    width: 30px;
+}
+
+.parentone{
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-items: center;
+    gap: 30px;
+    
+}
+
+.cardone{
+    background-color: #FFFFFF;
+    color: #5B6663;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    border-radius: 20px;
+    transition: transform 0.5s ease;
+
+}
+
+.cardone:hover{
+    background-color: #EEF5F1;
+    transform: translateY(-10px);
+     box-shadow: 0px 0px 5px 5px rgb(107, 105, 105);
+}
+
+
+ .parent{
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-items: center;
+    gap: 30px;
+    
+}
+
+.card{
+    background-color: #FFFFFF;
+    color: #5B6663;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    border-radius: 20px;
+    transition: transform 0.5s ease;
+
+}
+.card > h3{
+    background-color: #16302B;
+    color: #FFFFFF;
+    border-radius: 15px;
+}
+
+.card > button{
+    border-radius: 10px;
+    border: none;
+    background-color: #2E7D5B;
+    color: #FFFFFF;
+    padding: 5px;
+    width: 70px;
+}
+.card > button:hover{
+    background-color: #1F6045;
+    border: solid 1px black;
+    color: #FFFFFF;
+}
+
+
+.card:hover{
+    background-color: #EEF5F1;
+    color: black ;
+    transform: translateY(-10px);
+     box-shadow: 0px 0px 5px 5px rgb(107, 105, 105);
+}
+
+.headone{
+     background-color: #16302B;
+    color: #FFFFFF;
+    padding: 10px;
+    display: grid;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+
+
+@media (max-width: 1024px){
+    .parent{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media (max-width: 1024px){
+    .parentone{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 600px){
+    .parent{
+        display: grid;
+        grid-template-columns:1fr;
+    }
+}
+
+
+@media (max-width: 600px){
+    .parentone{
+        display: grid;
+        grid-template-columns:1fr;
+    }
+}
