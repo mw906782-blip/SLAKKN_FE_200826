@@ -66,8 +66,6 @@ body{
 
 @media (max-width:1024px){
     .parent{
-         background-color: rgb(0, 183, 255);
-    color: white;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 40px;
@@ -79,8 +77,6 @@ body{
 
 @media (max-width:600px){
     .parent{
-         background-color: rgb(0, 183, 255);
-    color: white;
     display: grid;
     grid-template-columns: 1fr;
     justify-items: center;

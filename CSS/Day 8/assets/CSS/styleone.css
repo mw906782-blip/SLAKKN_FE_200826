@@ -1,0 +1,93 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+     background-color: rgb(112, 112, 241);
+}
+.title{
+    background-color: rgb(0,0,0);
+    color: white;
+    padding: 5px;
+    border-radius: 20px;
+    
+}
+
+.parent{
+    background-color: rgb(112, 112, 241);
+    height: 180vh;
+    border-radius: 20px;
+    padding-top:20px ;
+    padding-bottom: 20px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-items: center;
+    place-items: center;
+    gap: 20px;
+}
+
+
+
+.card{
+    background-color: rgb(230, 228, 228);
+    color: rgb(0, 0, 0);
+    padding: 15px;
+    width: 240px;
+    height: 410px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px 5px rgb(61, 59, 59);
+    transition: transform 0.5s ease;
+}
+
+@media (max-width: 1024px){
+    .parent{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media (max-width: 600px){
+    .parent{
+        display: grid;
+        grid-template-columns: 1fr;
+
+    }
+}
+
+.card:hover{
+    transform: translateY(-10px);
+}
+
+
+.card > img{
+    width: 210px;
+    object-fit: cover;
+    border-radius: 15px;
+    transition: transform 0.5s ease;
+}
+.card > img:hover{
+    transform: scale(1.05);
+}
+
+
+.card >button{
+    background-color: darkorange;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    width: 90px;
+    display: block;
+    margin: auto;
+}
+
+
+.card > button:hover{
+      background-color: rgb(55, 245, 55);
+      color: white;
+      border: 1px solid black;
+
+}
+
