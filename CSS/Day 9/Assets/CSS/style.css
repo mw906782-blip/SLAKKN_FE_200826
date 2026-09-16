@@ -129,6 +129,7 @@
     color:  #47474f;
     font-weight: 300;
     border: solid 0.5px #d6d6df;
+     transition: border-color 0.5s ease;
     border-radius: 20px;
     width: 150px;
     height: 35px;
@@ -149,21 +150,40 @@
 /*Type*/
 
 .parenttwo{
-
+    margin-top: 30px;
+    margin-left: 40px;
 }
 
-.parenttwo > p{
-    
-}
 .card{
-     
+     border: solid 0.5px #d6d6df;
+     width: 246px;
+     height: 233px;
+     border-radius: 15px;
+    transition: border-color 0.5s ease;
 }
 
 .card > img{
     width: 50px;
+    margin-top: 20px;
+    margin-left: 20px;
     
 }
 
+.card > h2{
+    margin-left:20px;
+    font-size: 20px;
+}
+
 .card > p{
-    color: #47474f;
+    margin-left: 20px;
+    margin-right: 32px;
+    color: #8d8d94;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: start;
+}
+
+.card:hover{
+    border: solid 1px black;
+    
 }
