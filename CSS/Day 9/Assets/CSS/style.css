@@ -400,7 +400,7 @@ body{
 .ban{
     justify-content: center;
     margin-left: 20px;
-    box-shadow: 0px 0px 4px 4px#ededf0;
+    box-shadow: 0px 0px 20px 1px#ededf0;
     border-radius: 30px;
     width: 420px;
     height: 470px;
@@ -463,4 +463,70 @@ body{
 
 .ban:hover{
     transform: scale(1.05);
+}
+
+/* bannertwo */
+
+.parentfive{
+    margin-top: 200px;
+    margin-left:auto;
+    margin-right: auto;
+
+
+        background-color: #fff3d6;
+        display: flex;
+        border-radius: 20px;
+        width: 1300px;
+        height: 535px;
+        overflow:hidden;
+        
+}
+
+.imgone > img{
+      margin-left: 140px;
+      height: 590px;
+      vertical-align: middle;
+      
+}
+
+.headone{
+    margin-left: 110px;
+    margin-top: 105px;
+}
+
+.headone > h1{
+    
+    font-size: 45px;
+    color: #43434b;
+}
+
+.list > li{
+    margin-top: 30px;
+    line-height: 20px;
+    color: #47474f;
+}
+
+.anchort{
+    margin-top: 50px;
+    border: none;
+    background-color: #ffc233;
+    padding: 15px;
+    width: 170px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    text-align: none ;
+    transition:background 0.5s ease;
+}
+
+.anchort > a{
+    text-decoration: none;
+    color: #43434b;
+font-size: large;
+}
+
+.anchort:hover {
+    background-color: #f7ad01;
 }
