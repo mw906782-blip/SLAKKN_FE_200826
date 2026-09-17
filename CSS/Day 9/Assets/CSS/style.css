@@ -2,7 +2,8 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    font-family: Graphik, Arial, sans-serif;
+    
+      font-family: Graphik, Arial, sans-serif;
 }
 
 /* header */
@@ -265,13 +266,20 @@
 
 /* card */
 
+.parentthree{
+    margin-top: 30px;
+    margin-left: 40px;
+      display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
 .cardtwo{
      border: solid 0.5px #d6d6df;
      width: 246px;
      height: 270px;
      border-radius: 15px;
     transition: border-color 0.5s ease;
-
 }
 
 .cardtwo > img{
@@ -316,3 +324,50 @@
 .cardtwo:hover img {
     transform: scale(1.1);
 }
+
+.cardplus{
+    border: solid 0.5px #d6d6df;
+     width: 246px;
+     height: 233px;
+     border-radius: 15px;
+    transition: border-color 0.5s ease;
+}
+
+.cardplus >  h2{
+    margin-top: 20px;
+    margin-left:20px;
+    font-size: 20px;
+    color: #47474f;
+    transition: color 0.5s ease;
+}
+
+.cardplus > p{
+     margin-left: 20px;
+    margin-right: 32px;
+    color: #8d8d94;
+    font-size: 13.7px;
+    line-height: 20px;
+    text-align: start;
+    transition: color 0.5s ease;
+}
+
+.cardplus >  h3{
+    margin-top: 50px;
+    margin-left:20px;
+    font-size: 14px;
+    color:  #43434b;
+    transition: color 0.5s ease;
+}
+
+/* work */
+
+.work{
+    margin-top: 80px;
+    text-align: center;
+}
+
+.work > h1{
+    color:#33333b;
+    font-size: 40px;
+}
+
