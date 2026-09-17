@@ -5,7 +5,9 @@
     
       font-family: Graphik, Arial, sans-serif;
 }
-
+body{
+    height: 600vh;
+}
 /* header */
 .parent{
     background-color: white;
@@ -359,6 +361,22 @@
     transition: color 0.5s ease;
 }
 
+.cardplus:hover{
+    border: solid 1px black;
+}
+
+.cardolus:hover h2{
+    color:#33333b;
+}
+
+.cardplus:hover p {
+    color: #33333b;
+}
+
+.cardplus:hover h3{
+     color: #33333b;
+}
+
 /* work */
 
 .work{
@@ -371,3 +389,78 @@
     font-size: 40px;
 }
 
+/* ban */
+
+.parentfour{
+    margin-top: 60px;
+    display: flex;
+    gap:14px;
+}
+
+.ban{
+    justify-content: center;
+    margin-left: 20px;
+    box-shadow: 0px 0px 4px 4px#ededf0;
+    border-radius: 30px;
+    width: 420px;
+    height: 470px;
+    transition: transform 0.3s ease;
+}
+
+.ban > img{
+    width: 420px;
+    height: 250px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    
+}
+
+.ban > h2{
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size:15px;
+    font-weight: 450px;
+    font-size: 20px;
+    color: #33333b;
+    transition: color 0.5s ease;
+}
+
+.ban > p{
+    margin-left: 30px;
+    margin-right: 70px;
+    color: #47474f;
+    line-height: 30px;
+     transition: color 0.5s ease;
+}
+
+.ban > a{
+    font-size: 30px;
+    color: #43434b;
+    text-decoration: none;
+    margin-left: 350px;
+    transition: color 0.5s ease;
+}
+
+.ban > p{
+    color:#43434b;
+}
+
+.ban > h2{
+    color:#43434b;
+}
+
+.ban:hover h2{
+    color:black;
+}
+
+.ban:hover p{
+    color: black;
+}
+
+.ban:hover a{
+    color:#e5322d;
+}
+
+.ban:hover{
+    transform: scale(1.05);
+}
