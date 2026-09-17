@@ -152,6 +152,9 @@
 .parenttwo{
     margin-top: 30px;
     margin-left: 40px;
+      display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 .card{
@@ -203,5 +206,113 @@
 }
 
 .card:hover img {
+    transform: scale(1.1);
+}
+
+/* cardone*/
+
+.cardone{
+     border: solid 0.5px #d6d6df;
+     width: 246px;
+     height: 270px;
+     border-radius: 15px;
+    transition: border-color 0.5s ease;
+
+}
+
+.cardone > img{
+    width: 50px;
+    margin-top: 20px;
+    margin-left: 20px;
+    transition: transform 0.5s ease;
+    
+}
+
+.cardone > h2{
+    margin-top: 10px;
+    margin-left:20px;
+    font-size: 20px;
+    color: #47474f;
+    transition: color 0.5s ease;
+    
+}
+
+.cardone > p{
+    margin-left: 20px;
+    margin-right: 32px;
+    color: #8d8d94;
+    font-size: 13.7px;
+    line-height: 19px;
+    text-align: start;
+    transition: color 0.5s ease;
+}
+
+.cardone:hover{
+    border: solid 1px black;
+}
+
+.cardone:hover h2{
+    color:#33333b;
+}
+
+.cardone:hover p {
+    color: #33333b;
+}
+
+.cardone:hover img {
+    transform: scale(1.1);
+}
+
+/* card */
+
+.cardtwo{
+     border: solid 0.5px #d6d6df;
+     width: 246px;
+     height: 270px;
+     border-radius: 15px;
+    transition: border-color 0.5s ease;
+
+}
+
+.cardtwo > img{
+    width: 50px;
+    margin-top: 20px;
+    margin-left: 20px;
+    transition: transform 0.5s ease;
+    
+}
+
+.cardtwo > h2{
+    margin-top: 10px;
+    margin-left:20px;
+    font-size: 20px;
+    color: #47474f;
+    transition: color 0.5s ease;
+    
+}
+
+.cardtwo > p{
+    margin-left: 20px;
+    margin-right: 32px;
+    color: #8d8d94;
+    font-size: 13.7px;
+    line-height: 15px;
+    text-align: start;
+    transition: color 0.5s ease;
+}
+
+.cardtwo:hover{
+    border: solid 1px black;
+}
+
+.cardtwo:hover h2{
+    color:#33333b;
+}
+
+.cardtwo:hover p {
+    color: #33333b;
+}
+
+.cardtwo:hover img {
     transform: scale(1.1);
 }
