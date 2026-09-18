@@ -642,3 +642,41 @@ font-size: large;
 }
 
 /*footer*/
+
+.footer{
+    background-color:#33333b;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 80px;
+}
+
+.content{
+    color: white;
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 90px;
+    gap: 20px;
+
+}
+
+.content > ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.content > img{
+    width: 150px;
+}
