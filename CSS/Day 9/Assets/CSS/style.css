@@ -619,4 +619,26 @@ font-size: large;
     line-height: 30px;
 }
 
+/*logo */
 
+
+.parentseven{
+        height: 30vh;
+      
+    display: flex;
+    justify-content: center;   
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.logo > img{
+    height: 40px;
+    width: 90px;
+}
+
+/*footer*/
