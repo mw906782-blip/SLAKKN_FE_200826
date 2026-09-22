@@ -1,22 +1,22 @@
 /*task 1*/
 
-let studentname = "Maheshwaran";
+let studentname = "Maheshwaran"
 console.log(studentname)
 
-let Age = 21;
+let Age = 21
 console.log(Age)
 
-let isstudent = true;
+let isstudent = true
 console.log(isstudent)
 
-let  selecteduser = null;
+let  selecteduser = null
 console.log(selecteduser)
 
-let city;
+let city
 console.log(city)
 
 
 /* task 2 */
 
-let number = 300;
+let number = 300
 console.log(number)
