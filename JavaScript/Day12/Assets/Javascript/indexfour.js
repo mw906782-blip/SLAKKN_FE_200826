@@ -1,10 +1,10 @@
-let user = document.getElementById("username");
+let user = document.getElementById("Username");
 user.value = "Arun";
 
 user.style.backgroundColor = "yellow";
 
-let Email = document.querySelector("#email");
-Email.value = "arun@gmail.com";
+let email = document.querySelector("#Email");
+email.value = "arun@gmail.com";
 
 
 let submitButton = document.getElementById("btn");
