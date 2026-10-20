@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+     <h2>Simple Calculator</h2>
+
+    <form id="calculatorForm">
+
+        <label>First Number:</label>
+        <input type="number" id="num1" step="any">
+        <br><br>
+
+        <label>Second Number:</label>
+        <input type="number" id="num2" step="any">
+        <br><br>
+
+        <label>Select Operation:</label>
+
+        <select id="operation">
+            <option value="+">Addition (+)</option>
+            <option value="-">Subtraction (-)</option>
+            <option value="*">Multiplication (×)</option>
+            <option value="/">Division (÷)</option>
+        </select>
+
+        <br><br>
+
+        <button type="submit">Calculate</button>
+        <button type="button" id="clearBtn">Clear</button>
+
+    </form>
+
+    <h3>Result: <span id="result">---</span></h3>
+
+
+
+
+    <script src="Assets/Javasrcipt/indexone.js"></script>
+</body>
+</html>
