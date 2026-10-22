@@ -1,12 +1,11 @@
-import Button from "./components/Button";
+import Student from "./components/Student.jsx";
 
-const App = () => {
+const App = () =>{
   return(<>
-    <div>
-      <button>this is react</button>
-    </div>
-  
-  
+
+
+
+  <Student/>
   </>)
 }
 
