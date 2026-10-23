@@ -1,13 +1,12 @@
 import Student from "./components/Student.jsx";
-import Anchor from "./components/Anchor.jsx";
-
-
+import Website from "./components/Website.jsx"
 const App = () =>{
   return(<>
 
 
 
-  <Student/>  
+  <Student/> 
+  <Website/> 
          
   </>)
 }
