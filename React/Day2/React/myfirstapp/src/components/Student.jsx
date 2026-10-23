@@ -1,3 +1,4 @@
+import Website from "./Website"
 const Student = () =>{
     return(<>
         <div>
@@ -9,6 +10,7 @@ const Student = () =>{
             <p>Department: Bachelor of Computer Application</p>
             <p>College Name: LN Government College</p>
         </div>
+        
         </>)
 }
 export default Student
