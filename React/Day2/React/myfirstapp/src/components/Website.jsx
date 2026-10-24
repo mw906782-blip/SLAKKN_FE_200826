@@ -1,13 +1,13 @@
 import logo from "../assets/Images/Laptop.jpg"
 const Website = () =>{
     return(<>
-
+    <h1 className="h">Task-2</h1>
     <div className = "title">
         <h3>Laptop World</h3>
     </div>
      <div className = "Box">
                 <div className = "img">
-                    <img src={logo} alt="image shown" className = "img" />
+                    <img src={logo} alt="image shown" />
                 </div>
                 <div className = "nav">
                         <a href="#">Home</a>

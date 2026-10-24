@@ -1,10 +1,11 @@
 import logo from "../assets/Images/Laptop.jpg"
+
 const Card = () =>{
     return(<>
-
+    <h1 className="h">Task-3</h1>
     <div className="card">
-    <div className="img">
-        <img src="{logo}" alt="image shown" />
+    <div className="imgone">
+        <img src={logo} alt="image shown" />
     </div>
     <div className="P">
         <p>Brand: Acer</p>
