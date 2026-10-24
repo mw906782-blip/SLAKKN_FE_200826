@@ -1,5 +1,6 @@
 import Student from "./components/Student.jsx";
-import Website from "./components/Website.jsx"
+import Website from "./components/Website.jsx";
+import Card from "./components/Card.jsx";
 const App = () =>{
   return(<>
 
@@ -7,6 +8,7 @@ const App = () =>{
 
   <Student/> 
   <Website/> 
+  <Card/>
          
   </>)
 }
