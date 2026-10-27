@@ -6,15 +6,6 @@ import i5  from "../assets/Images/HP15.jpg"
 import i6  from "../assets/Images/macbook.jpg"
 
 
-
-
-
-
-
-
-
-
-
 const Product = () => {
     return(<>
     <div className="h" id="product">
