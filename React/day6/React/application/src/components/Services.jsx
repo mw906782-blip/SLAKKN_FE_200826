@@ -1,6 +1,6 @@
 
 
-const Help = () => {
+const Services = () => {
   return (
     <>
     <div className="mt-4 text-center">
@@ -12,4 +12,4 @@ const Help = () => {
   )
 }
 
-export default Help
+export default  Services
