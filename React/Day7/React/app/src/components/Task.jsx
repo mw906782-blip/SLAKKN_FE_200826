@@ -1,24 +1,22 @@
 import { useState } from "react"
 
-const Task = () => {
-    function App(){
-        const[ login, setlogin] = useState(false);
-    }
+
+function Task() {
+  const [login, setLogin] = useState(false);
+
   return (
-    <>
-    <div>
-        <h2>
-            {login ? "welcome User" : "please Login"}
-        </h2>
-        <button onclick={() => setlogin(!login)}>
-            {login ? "Logout" : "Login"}
-        </button>
+    <div className=" text-center">
+      <h2 >
+        {login ? "Welcome User" : "Please Login"}
+      </h2>
+
+      <button onClick={() => setLogin(!login)} className="bg-black text-white rounded-2xl w-30">
+        {login ? "Logout" : "Login"}
+      </button>
     </div>
-
-
-    </>
-  )
+  );
 }
+
 
 export default Task
 
