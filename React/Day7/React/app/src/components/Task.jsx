@@ -10,7 +10,7 @@ function Task() {
         {login ? "Welcome User" : "Please Login"}
       </h2>
 
-      <button onClick={() => setLogin(!login)} className="bg-black text-white rounded-2xl w-30">
+      <button onClick={() => setLogin(!login)} className="bg-amber-500 text-white rounded-2xl w-30">
         {login ? "Logout" : "Login"}
       </button>
     </div>
