@@ -14,17 +14,17 @@ const data = [
         <table className="border-collapse border border-black">
             <thead>
             <tr className="bg-gray-200">
-                <th className="border p-3">ID</th>
-                <th className="border p-3">Name</th>
-                <th className="border p-3">Salary</th>
+                <th className="border p-3 px-12">ID</th>
+                <th className="border p-3 px-12">Name</th>
+                <th className="border p-3 px-12">Salary</th>
             </tr>
             </thead>
             <tbody>
                 {data.map((employee)=>(
                     <tr className="bg-gray-200">
-                        <td className="border p-3">{employee.id}</td>
-                        <td className="border p-3">{employee.name}</td>
-                        <td className="border p-3">{employee.salary}</td>
+                        <td className="border p-3 px-12">{employee.id}</td>
+                        <td className="border p-3 px-12">{employee.name}</td>
+                        <td className="border p-3 px-12">{employee.salary}</td>
                     </tr>
                 ))}
             </tbody>
