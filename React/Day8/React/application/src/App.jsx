@@ -15,7 +15,6 @@ const App = () => {
       <Route path="/Object" element={<Object/>}/>
       <Route path="/Arrayofobject" element={<Arrayofobject/>}/>
       <Route path="/Props" element={<Props/>}/>
-      <Route path="/Propsone" element={<Propsone/>}/>
     </Routes>
     </>
   )

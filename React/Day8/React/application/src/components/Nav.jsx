@@ -9,7 +9,6 @@ const Nav = () => {
         <Link to="/Object" className="w-20 p-2 text-white bg-cyan-700 text-center  rounded-2xl">Task-2</Link>
         <Link to="/Arrayofobject" className="w-20 p-2 text-white bg-cyan-700 text-center  rounded-2xl">Task-3</Link>
         <Link to="/Props" className="w-20 p-2 text-white bg-cyan-700 text-center  rounded-2xl">Task-4</Link>
-        <Link to="/Propsone" className="w-20 p-2 text-white bg-cyan-700 text-center  rounded-2xl">Task-5</Link>
     </div>
     </>
   )
