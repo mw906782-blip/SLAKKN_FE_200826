@@ -3,27 +3,17 @@ import { useState } from "react"
 
 const React = () => {
       
-    const [name,Setname]=useState("Arun")   
+   const [name, setName] = useState("Mahesh");
+   return(<>
 
-    const Name =()=>{
-
-
-
-    }
-
- return (
-   <>
-
-
-   <h1>name:{name}</h1>
-
-   <button onClick={()=>Setname("kumar")}>click me</button>
-   
-   
-   
-   
+    <h1>
+      {name}
+    </h1>
+    <button onClick={()=> setName("Sam")}>
+      Change Name
+    </button>
    </>
-  )
-}
+   )
+  }
 
 export default React
