@@ -4,7 +4,7 @@ import Nav from "./components/Nav"
 import Object from "./components/Object"
 import Arrayofobject from "./components/Arrayofobject"
 import Props from "./components/Props"
-import Propsone from "./components/Propsone"
+
 
 const App = () => {
   return (
