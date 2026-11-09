@@ -40,6 +40,8 @@ const Register = () => {
 
         const checkDatas = JSON.parse(localStorage.getItem("authdatas")) || []
 
+    
+
         const checkEmail = checkDatas.find((e,i)=>e.userEmail==userEmail)
 
         if(checkEmail){
@@ -55,7 +57,7 @@ const Register = () => {
 
         datas.push(obj)
 
-        localStorage.setItem("authdata",JSON.stringify(datas))
+        localStorage.setItem("authdatas",JSON.stringify(datas))
 
         setUserName("")
         setUserEmail("")

@@ -38,7 +38,7 @@ const Login = () => {
 
         const checkEmail = checkDatas.find((e,i)=>e.userEmail==userEmail && e.userPassword == userPassword)
 
-        if(checkEmail){
+        if(!checkEmail){
             setError("Invalid User")
             return
         }
