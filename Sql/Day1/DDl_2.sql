@@ -11,6 +11,6 @@ salary decimal(10,2) check(salary>10000),
 department varchar(50) default "IT",
 joining_date date not null,
 status varchar(20) default "Active",
-created_at timestamp default cuurent_timestamp mp
+created_at timestamp default current_timestamp
 
 );
