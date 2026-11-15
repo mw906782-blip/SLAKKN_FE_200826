@@ -14,4 +14,9 @@ alter table patients add contact_number varchar(20);
 
 alter table patients rename column disease to diagnosis;
 
-alter table patients modify patient_name varchar(150); 
+alter table patients modify patient_name varchar(150);
+
+RENAME TABLE patients TO patients_record;
+
+
+
