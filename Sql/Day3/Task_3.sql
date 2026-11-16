@@ -1,30 +1,21 @@
-use day_4;
+use collegedb;
 
-create table employee (
+create table products(
 
-emp_id int primary key auto_increment,
-emp_name varchar(50) not null,
-department varchar(50) not null,
-salary decimal (10,2) check ( salary > 0) ,
-city varchar(50) not null
+product_id int primary key auto_increment,
+product_name varchar(100) not null,
+product_price decimal(10,2) check (product_price > 0),
+category varchar(50) not null,
+stock int default 0 check (stock >= 0),
+manufacturing_date date 
 );
 
+rename table products to product_details;
 
+alter table product_details drop check product_details_chk_1;
 
+desc product_details;
 
-INSERT INTO employee
-(emp_name, department, salary, city)
-VALUES
-('Arun', 'HR', 25000, 'Chennai'),
-('Bala', 'IT', 35000, 'Minjur'),
-('Kumar', 'HR', 30000, 'Ponneri'),
-('Ravi', 'Sales', 40000, 'Ambattur'),
-('Vijay', 'Finance', 28000, 'Avadi'),
-('Ajith', 'IT', 45000, 'Chennai'),
-('Suresh', 'HR', 32000, 'Red Hills'),
-('Manoj', 'Sales', 38000, 'Minjur');
+alter table product_details rename column product_price to price;
 
-
-
-select department, count(*) as total_employees from employee group by department;
-
+alter table product_details drop column manufacturing_date;

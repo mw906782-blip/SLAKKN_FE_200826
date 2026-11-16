@@ -1,31 +1,19 @@
-use day_4;
+use collegedb;
 
-create table students(
-student_id int primary key auto_increment,
-student_name varchar(50) not null,
-age int check ( age > 17),
-city varchar(50) not null
+create table employees(
+
+employee_id int primary key auto_increment,
+e_name varchar(50) not null,
+emp_salary decimal (10,2),
+emp_department varchar(100) default "IT",
+joining_date date,
+emp_city varchar(100) default "Chennai"
 );
 
-insert into students(student_name, age, city)
-values
-('mahesh',23,'Chennai'),
-('lokesh',18,'Madurai'),
-('Deepak',19,'Chennai'),
-('Sam',21,'Madurai'),
-('mahesh',22,'Chennai'),
-('Joy',21,'Madurai'),
-('Ragu',19,'Chennai'),
-('Sam',20,'Madurai');
+alter table employees rename column e_name to emp_name;
 
+alter table employees modify emp_salary decimal (12,2);
 
-insert into students (student_name, age, city)
-values
-('mahesh',30,'Chennai');
+alter table employees add emp_email varchar(100) unique;
 
-
-select * from students where age between 18 and 25
-and city in ('Chennai','Madurai');
-
-
-
+desc employees;

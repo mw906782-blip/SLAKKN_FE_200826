@@ -1,28 +1,22 @@
-use day_4;
+use collegedb;
 
-create table products(
-
-product_id int primary key auto_increment,
-product_name varchar(50) not null,
-category varchar(50) not null,
-stock int default 0,
-price decimal (10,2) check (price > 0)
+create table patients(
+patient_id int primary key auto_increment,
+patient_name varchar(50) not null,
+age int check (age > 0),
+gender varchar(50),
+disease varchar(50),
+admission_date date, 
+doctor_name varchar (50)  
 );
 
-insert into products (product_name, category, stock, price)
-values
-('Laptop', 'Electronics', 10, 50000),
-('Mouse', 'Electronics', 20, 500),
-('Keyboard', 'Electronics', 15, 1200),
-('Monitor', 'Electronics', 8, 12000),
+alter table patients add contact_number varchar(20);
 
-('Shirt', 'Clothing', 25, 800),
-('Jeans', 'Clothing', 15, 1500),
-('Jacket', 'Clothing', 10, 2500),
+alter table patients rename column disease to diagnosis;
 
-('Rice', 'Groceries', 50, 60),
-('Sugar', 'Groceries', 40, 45),
-('Oil', 'Groceries', 30, 150);
+alter table patients modify patient_name varchar(150);
 
-select * from products;
-select category, sum(stock) as total_stock,avg(price) as average_price from products group by category;
+RENAME TABLE patients TO patients_record;
+
+
+

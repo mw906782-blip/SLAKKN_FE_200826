@@ -1,24 +1,21 @@
-use day_4;
+use collegedb;
 
-create table employ(
-emp_id int primary key auto_increment,
-emp_name varchar(50) not null,
- department varchar(50) not null,
- salary decimal(10,2) check (salary > 0)
-);
+create table courses (
 
-insert into employ (emp_name, department, salary)
-values
-('Arun', 'IT', 50000),
-('Bala', 'IT', 35000),
-('Charan', 'IT', 25000),
-('David', 'HR', 45000),
-('Ezhil', 'HR', 55000),
-('Farhan', 'HR', 30000),
-('Gokul', 'Sales', 60000),
-('Hari', 'Sales', 40000),
-('Kumar', 'Sales', 20000),
-('Lokesh', 'Sales', 50000);
+course_id int primary key auto_increment,
+course_name varchar(50) not null,
+duration int default 3,
+fees decimal (10,2) check ( fees > 0),
+trainer_name varchar(50) not null,
+start_date date
+); 
 
-select department, avg(salary) as average_salary from employ where salary > 25000 group by department having avg(salary) > 40000;
+alter table courses add course_status varchar(50);
 
+alter table courses rename column trainer_name to instructor_name;
+
+alter table courses modify duration varchar(20);
+
+alter table courses modify duration varchar(30) default "3"; 
+
+ALTER TABLE courses ALTER COLUMN duration SET DEFAULT '3';
